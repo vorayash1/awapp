@@ -25,7 +25,7 @@ return (
     <input type="password" name="pwd" value={password} onChange={(e)=> setPassword(e.target.value)} />
   </label>
 
-  <button onClick={validate}/>
+  <button onClick={validate}>validate</button>
   {pwdError && <p>your password is invalid</p>}
  </div>
 
